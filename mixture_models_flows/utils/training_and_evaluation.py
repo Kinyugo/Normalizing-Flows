@@ -90,7 +90,7 @@ def run_epoch_training(
 
     losses = []
     model.train()
-    pbar = tqdm(train_dataloader, leave=False)
+    pbar = tqdm(train_dataloader)
 
     for batch in pbar:
         # calling the nll method performs both
