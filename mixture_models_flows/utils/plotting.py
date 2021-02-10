@@ -1,12 +1,13 @@
-from models.mixture_cdf_flow import MixtureCDFFlow
 from typing import List, Tuple
-from matplotlib.figure import Figure
 
-import torch
-import numpy as np
 import matplotlib.pyplot as plt
-from torch.utils.data.dataloader import DataLoader
+import numpy as np
+import torch
+from matplotlib.figure import Figure
 from scipy.stats import norm
+from torch.utils.data.dataloader import DataLoader
+
+from models.mixture_cdf_flow import MixtureCDFFlow
 
 
 def plot_1d_data(

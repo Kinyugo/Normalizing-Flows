@@ -1,10 +1,9 @@
 from typing import List, Tuple, Union
+
 import torch
-import numpy as np
 from torch.utils.data.dataloader import DataLoader
 
 from utils.flow_dataset import FlowDataset
-
 from utils.plotting import plot_1d_data
 
 

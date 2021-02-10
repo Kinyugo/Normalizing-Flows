@@ -1,12 +1,12 @@
 from typing import List, Tuple, Union
-import torch
-import numpy as np
-import torch.optim as optim
 
+import numpy as np
+import torch
+import torch.optim as optim
 from torch.utils.data.dataloader import DataLoader
 from tqdm.notebook import tqdm
-from models import MixtureCDFFlow
 
+from models.mixture_cdf_flow import MixtureCDFFlow
 from utils.plotting import plot_density
 
 
